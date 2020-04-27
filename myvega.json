@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Prummm/vega-project/master/inf_ชุมชนในกทม.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "title": "เขต",
+      "field": "dname",
+      "type": "nominal"
+    },
+    "y": {
+      "title": "จำนวนที่อยู่อาศัย",
+      "aggregate": "count",
+      "field": "num_house",
+      "type": "ordinal"
+    },
+    "color": {
+      "field": "dname"
+    },
+    "tooltip": [
+      {
+        "field": "dname",
+        "type": "nominal"
+      },
+      {
+        "field": "numhouse",
+        "type": "ordinal"
+      }
+    ]
+  },
+  "config": {}
+}
