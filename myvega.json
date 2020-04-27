@@ -12,7 +12,7 @@
     },
     "y": {
       "title": "จำนวนที่อยู่อาศัย",
-      "aggregate": "count",
+      "aggregate": "sum",
       "field": "num_house",
       "type": "ordinal"
     },
