@@ -11,8 +11,8 @@
       "type": "nominal"
     },
     "y": {
-      "title": "จำนวนที่อยู่อาศัย",
-      "aggregate": "sum",
+      "title": "จำนวนชุมชน",
+      "aggregate": "count",
       "field": "num_house",
       "type": "ordinal"
     },
